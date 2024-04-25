@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF9000"
+    tools:context=".BlankFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#990000"
+        android:text = "Burger Details\nCalories:354\nFat:18g\nProtein:22g"
+        android:gravity="center_vertical"
+        tools:ignore="RtlCompat" />
+</FrameLayout>
